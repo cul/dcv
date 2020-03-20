@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  layout 'dcv'
+  layout 'catalog'
 
   def wall
   end

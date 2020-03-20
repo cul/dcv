@@ -1,0 +1,30 @@
+//fonts
+$font_0: helvetica neue !global;
+$font_1: helvetica !global;
+$font_2: sans-serif !global;
+$font_3: TrajanProRegular !global;
+$font_4: trajan pro !global;
+$font_5: trajan !global;
+$font_6: georgia !global;
+$font_7: serif !global;
+$font_g: Glyphicons Halflings !global;
+$font_b: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif !global;
+$font_c: "Helvetica Rounded", Arial, sans-serif !global;
+
+//urls
+$url_0: url(//cdn.cul.columbia.edu/ldpd-toolkit/img/crown-bts-24x24.png) !global;
+$url_1: url(//cdn.cul.columbia.edu/ldpd-toolkit/img/crown-icon-sprite.png) !global;
+$url_2: image-url('dcv/1836760843_267e9c947f_o-sm-b.jpg') !global;
+$url_3: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.eot);
+$url_4: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.eot?#iefix);
+$url_5: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.woff);
+$url_6: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.ttf);
+$url_7: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.svg#TrajanProRegular);
+
+@font-face {
+	font-family: $font_3;
+	src: $url_3;
+	src: $url_4 format("embedded-opentype"), $url_5 format("woff"), $url_6 format("truetype"), $url_7 format("svg");
+	font-weight: normal;
+	font-style: normal;
+}

@@ -239,7 +239,7 @@ namespace :dcv do
         subsites_yml[env_name] ||= {
           'public' => {
             'catalog' => {
-              'layout' => 'dcv',
+              'layout' => 'catalog',
               'remote_request_api_key' => 'sample_key',
               'date_search' => {
                 'sidebar' => true,

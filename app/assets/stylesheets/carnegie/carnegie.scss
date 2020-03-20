@@ -23,17 +23,6 @@ $color_20: rgba(255, 255, 255, 0.9);
 $color_21: rgba(255, 255, 255, 0.4);
 $color_anchor: #1a8be4;
 
-//fonts
-$font_0: helvetica neue;
-$font_1: helvetica;
-$font_2: sans-serif;
-$font_3: TrajanProRegular;
-$font_4: trajan pro;
-$font_5: trajan;
-$font_6: serif;
-$font_b: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
-$font_c: "Helvetica Rounded", Arial, sans-serif;
-
 @mixin	stripeBg($l: 25%) {
 	background: lighten($color_2, $l);
 	background-image:$url_0;

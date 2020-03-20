@@ -15,7 +15,7 @@ class HomeController < ApplicationController
   before_filter :store_unless_user
   before_filter :set_browse_lists
 
-  layout 'dcv'
+  layout 'catalog'
 
   configure_blacklight do |config|
     Dcv::Configurators::DcvBlacklightConfigurator.configure(config)

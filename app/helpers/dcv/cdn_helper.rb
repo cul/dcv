@@ -105,7 +105,7 @@ module Dcv::CdnHelper
   # return an appropriate details path for the item and asset/child
   # opts should include a layout name 'layout' and optionally an index 'ix'
   def zoom_url_for_doc(item, asset = {}, opts = {})
-    iframe_url_for_document(item) || details_path(id: (asset[:dc_type] == 'StillImage' ? item[:id] : asset[:pid]), layout:opts.fetch(:layout, 'dcv'), initial_page: opts.fetch(:initial_page, 0))
+    iframe_url_for_document(item) || details_path(id: (asset[:dc_type] == 'StillImage' ? item[:id] : asset[:pid]), layout:opts.fetch(:layout, 'catalog'), initial_page: opts.fetch(:initial_page, 0))
   end
 
 

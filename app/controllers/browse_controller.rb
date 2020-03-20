@@ -3,7 +3,7 @@ class BrowseController < ApplicationController
 
   before_action :refresh_catalog_browse_lists_cache
 
-  layout 'dcv'
+  layout 'catalog'
 
   def index
   	@browse_lists = get_catalog_browse_lists

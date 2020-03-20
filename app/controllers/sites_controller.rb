@@ -8,7 +8,7 @@ class SitesController < ApplicationController
 
   before_filter :set_browse_lists, only: :index
 
-  layout Proc.new { |controller| 'dcv' }
+  layout Proc.new { |controller| 'catalog' }
 
   configure_blacklight do |config|
     config.default_solr_params = {

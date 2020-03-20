@@ -6,10 +6,7 @@ $color_3: #242424;
 $color_4: #333;
 $color_5: #eee;
 $color_6: #444;
-$color_7: #002b7f;
-$color_8: #222;
 $color_9: #fff;
-$color_10: #0081c2;
 $color_11: #08c;
 $color_12: #0077b3;
 $color_13: #2a2aa5;
@@ -38,23 +35,8 @@ $color_35: #fee9cc;
 $color_36: #429cec;
 $color_37: #1069b9;
 
-//fonts
-$font_0: TrajanProRegular;
-$font_1: trajan;
-$font_2: serif;
-$font_3: trajan pro;
-$font_4: georgia;
-$font_5: Glyphicons Halflings;
-
 //urls
-$url_0: url(//cdn.cul.columbia.edu/ldpd-toolkit/img/crown-bts-24x24.png);
-$url_1: url(//cdn.cul.columbia.edu/ldpd-toolkit/img/crown-icon-sprite.png);
-$url_2: image-url('dcv/1836760843_267e9c947f_o-sm-b.jpg');
-$url_3: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.eot);
-$url_4: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.eot?#iefix);
-$url_5: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.woff);
-$url_6: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.ttf);
-$url_7: url(//cdn.cul.columbia.edu/ldpd-toolkit/fonts/trajanpro-regular-webfont.svg#TrajanProRegular);
+$banner_image: image-url('dcv/1836760843_267e9c947f_o-sm-b.jpg');
 
 //@extend-elements
 //original selectors
@@ -117,63 +99,19 @@ input {
 	border-top: 0;
 }
 #topnavbar {
-	min-height: 50px;
-	font-size: 13px;
 	color: $color_5;
 	background: $color_6;
-	border-top: 5px solid $color_7;
-	border-bottom: 1px solid $color_8;
 	border-top-color: $color_0;
-	#navbar-container {
-		padding: 0;
-		.navlist-padded {
-			position: relative;
-			display: block;
-			padding: 10px 15px;
-		}
-	}
 	#cul_top-nosearch {
-		padding-left: 0;
-		padding-right: 10px;
-		height: 38px;
 		background: $color_0;
 		#crowndown-nosearch {
-			height: 39px;
-			margin-lef: -10px;
-			padding-left: 0;
-			margin-top: -1px;
 			background: $color_0;
-			.dropdown-toggle {
-				background: transparent $url_0 no-repeat 4px 30%;
-				padding-right: 4px;
-				padding-left: 34px;
-				font-size: 103%;
-				line-height: 120%;
-				letter-spacing: 0;
-				font-weight: normal;
-				font-family: $font_0, $font_1, $font_2;
-				margin-top: 2px;
-			}
 		}
 		.dropdown-menu {
 			background-color: $color_0;
-			margin-top: -3px;
-			i.icon-crown-white {
-				display: inline-block;
-				width: 14px;
-				height: 14px;
-				background-position: -14px 0;
-				background-image: $url_1 !important;
-				line-height: 14px;
-				vertical-align: text-top;
-				margin-top: 1px;
-			}
 			li a:hover {
-				text-decoration: none;
 				color: $color_9;
-				background-color: $color_10;
 				background-image: linear-gradient(to bottom, $color_11, $color_12);
-				background-repeat: repeat-x;
 				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
 				background-color: $color_13;
 				color: $color_9 !important;
@@ -204,7 +142,7 @@ input {
 				display: block;
 				padding-top: 8px;
 				padding-bottom: 0;
-				font-family: $font_0, $font_3, $font_1, $font_2;
+				font-family: $font_3, $font_4, $font_5, $font_7;
 				font-size: 1.80em;
 				font-weight: 100;
 				color: $color_15;
@@ -216,7 +154,7 @@ input {
 	#site-banner-left {
 		margin-top: 20px;
 		background-color: $color_0;
-		background-image: $url_2;
+		background-image: $banner_image;
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: 104%;
@@ -232,7 +170,7 @@ input {
 		padding: 2px 0 0;
 		margin-bottom: .75em;
 		text-align: center;
-		font-family: $font_0, $font_1, $font_4, $font_2;
+		font-family: $font_3, $font_5, $font_6, $font_7;
 		font-size: 220%;
 		a {
 			color: $color_9;
@@ -249,7 +187,7 @@ input {
 		padding: 2px 0 0;
 		margin-bottom: .5em;
 		text-align: center;
-		font-family: $font_0, $font_1, $font_4, $font_2;
+		font-family: $font_3, $font_5, $font_6, $font_7;
 		font-size: 180%;
 		a {
 			color: $color_9;
@@ -362,7 +300,7 @@ input {
 		padding: 2px 0 0;
 		margin-bottom: .5em;
 		text-align: center;
-		font-family: $font_1, $font_4, $font_2, $font_0;
+		font-family: $font_5, $font_6, $font_7, $font_3;
 		font-size: 180%;
 		a {
 			color: $color_9;
@@ -398,16 +336,6 @@ input {
 	#content #digital_projects h3 {
 		margin-top: auto;
 	}
-	#topnavbar .topbarlogo {
-		display: inline-block;
-		letter-spacing: 0;
-	}
-}
-@media(max-width: 991px) {
-	#topnavbar .topbarlogo {
-		display: inline-block;
-		letter-spacing: 0;
-	}
 }
 @media(min-width: 992px) {
 	#site-banner {
@@ -430,19 +358,10 @@ input {
 			}
 		}
 	}
-	#topnavbar .topbarlogo {
-		display: inline-block;
-		margin: 0;
-		letter-spacing: 1px;
-		margin-top: 2px;
-	}
 }
 @media(min-width: 1200px) {
 	#outer-wrapper {
 		padding: 0 10px 2em;
-		width: 1190px;
-	}
-	#navbar-container {
 		width: 1190px;
 	}
 	#site-banner {
@@ -469,32 +388,8 @@ input {
 			}
 		}
 	}
-	#topnavbar .topbarlogo {
-		display: inline-block;
-		margin: 0;
-		font-size: 16px;
-		line-height: 18px;
-		letter-spacing: 0;
-		#topbarslash {
-			padding-left: .2em;
-			padding-right: .2em;
-		}
-	}
 }
-@media(max-width: 600px) {
-	#topnavbar {
-		font-size: 80%;
-		line-height: 17px;
-	}
-	#cul_top-right .dropdown-toggle {
-		margin-top: -1px;
-	}
-}
-@media(max-width: 640px) {
-	#topnavbar .topbarlogo {
-		display: none;
-	}
-}
+
 .blacklight-home-restricted #search-navbar {
     display:none;
 }
@@ -717,7 +612,7 @@ h2[itemprop="name"] {
 				padding-right: 3px;
 				margin-left: -5px;
 				font-size: .7em;
-				font-family: $font_5;
+				font-family: $font_g;
 				color: $color_20;
 				content: "\e080";
 			}
@@ -1046,13 +941,6 @@ h2[itemprop="name"] {
 	ul li {
 		word-wrap: break-word;
 	}
-}
-@font-face {
-	font-family: $font_0;
-	src: $url_3;
-	src: $url_4 format("embedded-opentype"), $url_5 format("woff"), $url_6 format("truetype"), $url_7 format("svg");
-	font-weight: normal;
-	font-style: normal;
 }
 #show-generic-resource {
 	.inner {

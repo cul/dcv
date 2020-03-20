@@ -70,7 +70,7 @@ module Repositories
     end
 
     def subsite_layout
-      'dcv'
+      'catalog'
     end
 
     def index

@@ -5,7 +5,7 @@ class Resolve::CatalogController < ApplicationController
 
   include Blacklight::Catalog
 
-  layout 'dcv'
+  layout 'catalog'
 
   configure_blacklight do |config|
     config.default_solr_params = {
